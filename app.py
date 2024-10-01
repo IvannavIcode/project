@@ -21,6 +21,6 @@ if scatter_create:
 
     fig = px.scatter(car_data, x="odometer", y='price')
 
-    fig.show()
+    st.plotly_chart(fig)
 # End of line
 # EOF
